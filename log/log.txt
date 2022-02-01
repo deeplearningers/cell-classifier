@@ -1,0 +1,207 @@
+WARNING:root:Can't find label.txt. Now create it.
+INFO:root:Saving results to data/
+INFO:root:Determining list of input files and labels from data/validation.
+WARNING:tensorflow:From C:\project-dl\cell-fenlei\src\tfrecord.py:313: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+INFO:root:Finished finding files in 0 of 2212 classes.
+INFO:root:Found 4347 JPEG files across 3 labels inside data/validation.
+INFO:root:Launching 32 threads for spacings: [[0, 135], [135, 271], [271, 407], [407, 543], [543, 679], [679, 815], [815, 950], [950, 1086], [1086, 1222], [1222, 1358], [1358, 1494], [1494, 1630], [1630, 1765], [1765, 1901], [1901, 2037], [2037, 2173], [2173, 2309], [2309, 2445], [2445, 2581], [2581, 2716], [2716, 2852], [2852, 2988], [2988, 3124], [3124, 3260], [3260, 3396], [3396, 3531], [3531, 3667], [3667, 3803], [3803, 3939], [3939, 4075], [4075, 4211], [4211, 4347]]
+INFO:root:2020-07-28 08:46:44.070090 [thread 0]: Wrote 135 images to data/cell_validation_00000-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:44.071090 [thread 0]: Wrote 135 images to 135 shards.
+INFO:root:2020-07-28 08:46:47.104878 [thread 6]: Wrote 135 images to data/cell_validation_00006-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:47.119821 [thread 6]: Wrote 135 images to 135 shards.
+INFO:root:2020-07-28 08:46:47.542891 [thread 4]: Wrote 136 images to data/cell_validation_00004-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:47.542891 [thread 4]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:48.401305 [thread 13]: Wrote 136 images to data/cell_validation_00013-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:48.401305 [thread 13]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:49.436998 [thread 19]: Wrote 135 images to data/cell_validation_00019-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:49.436998 [thread 19]: Wrote 135 images to 135 shards.
+INFO:root:2020-07-28 08:46:49.777749 [thread 2]: Wrote 136 images to data/cell_validation_00002-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:49.777749 [thread 2]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:49.895849 [thread 7]: Wrote 136 images to data/cell_validation_00007-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:50.311173 [thread 17]: Wrote 136 images to data/cell_validation_00017-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:50.318171 [thread 7]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:50.327172 [thread 17]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:50.909769 [thread 18]: Wrote 136 images to data/cell_validation_00018-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:50.909769 [thread 18]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:51.013006 [thread 1]: Wrote 136 images to data/cell_validation_00001-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:51.014005 [thread 1]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:51.108725 [thread 5]: Wrote 136 images to data/cell_validation_00005-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:51.109684 [thread 5]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:51.477958 [thread 23]: Wrote 136 images to data/cell_validation_00023-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:51.477958 [thread 23]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:52.153782 [thread 3]: Wrote 136 images to data/cell_validation_00003-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:52.154776 [thread 3]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:52.166726 [thread 12]: Wrote 135 images to data/cell_validation_00012-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:52.167727 [thread 12]: Wrote 135 images to 135 shards.
+INFO:root:2020-07-28 08:46:52.331643 [thread 8]: Wrote 136 images to data/cell_validation_00008-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:52.331643 [thread 8]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:52.502058 [thread 10]: Wrote 136 images to data/cell_validation_00010-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:52.502058 [thread 10]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:52.507006 [thread 9]: Wrote 136 images to data/cell_validation_00009-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:52.507006 [thread 9]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:52.860885 [thread 24]: Wrote 136 images to data/cell_validation_00024-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:52.860885 [thread 24]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:53.018496 [thread 14]: Wrote 136 images to data/cell_validation_00014-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:53.018496 [thread 14]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:53.190947 [thread 15]: Wrote 136 images to data/cell_validation_00015-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:53.191915 [thread 15]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:53.296046 [thread 21]: Wrote 136 images to data/cell_validation_00021-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:53.296046 [thread 21]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:53.546022 [thread 27]: Wrote 136 images to data/cell_validation_00027-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:53.547021 [thread 27]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:53.752270 [thread 31]: Wrote 136 images to data/cell_validation_00031-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:53.753280 [thread 31]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:53.952307 [thread 30]: Wrote 136 images to data/cell_validation_00030-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:53.954307 [thread 30]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:54.192277 [thread 26]: Wrote 136 images to data/cell_validation_00026-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:54.193277 [thread 26]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:54.583373 [thread 20]: Wrote 136 images to data/cell_validation_00020-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:54.584406 [thread 20]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:54.799678 [thread 11]: Wrote 136 images to data/cell_validation_00011-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:54.799678 [thread 11]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:55.438605 [thread 29]: Wrote 136 images to data/cell_validation_00029-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:55.439600 [thread 29]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:55.811920 [thread 25]: Wrote 135 images to data/cell_validation_00025-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:55.811920 [thread 25]: Wrote 135 images to 135 shards.
+INFO:root:2020-07-28 08:46:55.940612 [thread 28]: Wrote 136 images to data/cell_validation_00028-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:55.940612 [thread 28]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:56.151668 [thread 22]: Wrote 136 images to data/cell_validation_00022-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:56.151668 [thread 22]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:56.269078 [thread 16]: Wrote 136 images to data/cell_validation_00016-of-00032.tfrecord
+INFO:root:2020-07-28 08:46:56.269720 [thread 16]: Wrote 136 images to 136 shards.
+INFO:root:2020-07-28 08:46:56.439083: Finished writing all 4347 images in data set.
+INFO:root:Determining list of input files and labels from data/train.
+INFO:root:Finished finding files in 0 of 21006 classes.
+INFO:root:Found 72409 JPEG files across 3 labels inside data/train.
+INFO:root:Launching 32 threads for spacings: [[0, 2262], [2262, 4525], [4525, 6788], [6788, 9051], [9051, 11313], [11313, 13576], [13576, 15839], [15839, 18102], [18102, 20365], [20365, 22627], [22627, 24890], [24890, 27153], [27153, 29416], [29416, 31678], [31678, 33941], [33941, 36204], [36204, 38467], [38467, 40730], [40730, 42992], [42992, 45255], [45255, 47518], [47518, 49781], [49781, 52043], [52043, 54306], [54306, 56569], [56569, 58832], [58832, 61095], [61095, 63357], [63357, 65620], [65620, 67883], [67883, 70146], [70146, 72409]]
+INFO:root:2020-07-28 08:55:54.868511 [thread 0]: Processed 1000 of 2262 images in thread batch.
+INFO:root:2020-07-28 08:55:56.044978 [thread 20]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:55:56.551716 [thread 26]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:55:59.833707 [thread 9]: Processed 1000 of 2262 images in thread batch.
+INFO:root:2020-07-28 08:56:02.654451 [thread 3]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:56:02.654451 [thread 5]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:56:09.454819 [thread 13]: Processed 1000 of 2262 images in thread batch.
+INFO:root:2020-07-28 08:56:15.394003 [thread 22]: Processed 1000 of 2262 images in thread batch.
+INFO:root:2020-07-28 08:56:22.180154 [thread 14]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:56:23.916628 [thread 17]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:56:24.130749 [thread 1]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:56:25.272528 [thread 27]: Processed 1000 of 2262 images in thread batch.
+INFO:root:2020-07-28 08:56:30.066909 [thread 16]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:56:32.931413 [thread 15]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:56:36.866654 [thread 29]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:56:45.501955 [thread 6]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:57:42.746363 [thread 19]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:58:10.445416 [thread 24]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:58:13.744052 [thread 25]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:58:14.271205 [thread 28]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:58:17.915357 [thread 23]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:58:37.322722 [thread 2]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:58:54.330815 [thread 12]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:58:55.459816 [thread 10]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 08:59:00.081815 [thread 4]: Processed 1000 of 2262 images in thread batch.
+INFO:root:2020-07-28 08:59:35.430299 [thread 31]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:00:01.403372 [thread 21]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:00:03.310528 [thread 8]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:00:28.496634 [thread 7]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:00:35.198485 [thread 30]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:03:06.772365 [thread 11]: Processed 1000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:05:11.652200 [thread 20]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:05:16.691221 [thread 9]: Processed 2000 of 2262 images in thread batch.
+INFO:root:2020-07-28 09:05:23.679325 [thread 1]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:05:27.328401 [thread 13]: Processed 2000 of 2262 images in thread batch.
+INFO:root:2020-07-28 09:05:28.514816 [thread 3]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:05:29.950768 [thread 18]: Processed 1000 of 2262 images in thread batch.
+INFO:root:2020-07-28 09:05:36.662646 [thread 16]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:05:43.297842 [thread 17]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:05:45.424580 [thread 6]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:05:47.412371 [thread 5]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:05:58.819281 [thread 26]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:06:23.240811 [thread 27]: Processed 2000 of 2262 images in thread batch.
+INFO:root:2020-07-28 09:06:28.161951 [thread 22]: Processed 2000 of 2262 images in thread batch.
+INFO:root:2020-07-28 09:07:09.918425 [thread 14]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:07:12.187416 [thread 0]: Processed 2000 of 2262 images in thread batch.
+INFO:root:2020-07-28 09:07:39.254690 [thread 9]: Wrote 2262 images to data/cell_train_00009-of-00032.tfrecord
+INFO:root:2020-07-28 09:07:39.255659 [thread 9]: Wrote 2262 images to 2262 shards.
+INFO:root:2020-07-28 09:07:56.306917 [thread 20]: Wrote 2263 images to data/cell_train_00020-of-00032.tfrecord
+INFO:root:2020-07-28 09:07:56.307847 [thread 20]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:08:00.396037 [thread 3]: Wrote 2263 images to data/cell_train_00003-of-00032.tfrecord
+INFO:root:2020-07-28 09:08:00.396037 [thread 3]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:08:00.405037 [thread 1]: Wrote 2263 images to data/cell_train_00001-of-00032.tfrecord
+INFO:root:2020-07-28 09:08:00.405037 [thread 1]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:08:02.980019 [thread 13]: Wrote 2262 images to data/cell_train_00013-of-00032.tfrecord
+INFO:root:2020-07-28 09:08:02.981036 [thread 13]: Wrote 2262 images to 2262 shards.
+INFO:root:2020-07-28 09:08:11.332990 [thread 29]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:08:15.003564 [thread 17]: Wrote 2263 images to data/cell_train_00017-of-00032.tfrecord
+INFO:root:2020-07-28 09:08:15.003564 [thread 17]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:08:16.958237 [thread 16]: Wrote 2263 images to data/cell_train_00016-of-00032.tfrecord
+INFO:root:2020-07-28 09:08:16.958237 [thread 16]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:08:23.229362 [thread 5]: Wrote 2263 images to data/cell_train_00005-of-00032.tfrecord
+INFO:root:2020-07-28 09:08:23.229362 [thread 5]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:08:25.144944 [thread 28]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:08:25.721179 [thread 4]: Processed 2000 of 2262 images in thread batch.
+INFO:root:2020-07-28 09:08:30.109331 [thread 10]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:08:39.087581 [thread 26]: Wrote 2263 images to data/cell_train_00026-of-00032.tfrecord
+INFO:root:2020-07-28 09:08:39.087581 [thread 26]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:08:45.410693 [thread 23]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:09:00.308123 [thread 27]: Wrote 2262 images to data/cell_train_00027-of-00032.tfrecord
+INFO:root:2020-07-28 09:09:00.309122 [thread 27]: Wrote 2262 images to 2262 shards.
+INFO:root:2020-07-28 09:09:07.974550 [thread 22]: Wrote 2262 images to data/cell_train_00022-of-00032.tfrecord
+INFO:root:2020-07-28 09:09:08.012550 [thread 22]: Wrote 2262 images to 2262 shards.
+INFO:root:2020-07-28 09:09:08.063550 [thread 8]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:09:31.220126 [thread 6]: Wrote 2263 images to data/cell_train_00006-of-00032.tfrecord
+INFO:root:2020-07-28 09:09:31.220126 [thread 6]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:09:37.979902 [thread 31]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:09:42.359692 [thread 0]: Wrote 2262 images to data/cell_train_00000-of-00032.tfrecord
+INFO:root:2020-07-28 09:09:42.359692 [thread 0]: Wrote 2262 images to 2262 shards.
+INFO:root:2020-07-28 09:09:42.956408 [thread 14]: Wrote 2263 images to data/cell_train_00014-of-00032.tfrecord
+INFO:root:2020-07-28 09:09:42.957406 [thread 14]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:09:51.361442 [thread 7]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:09:52.048241 [thread 19]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:10:18.100327 [thread 29]: Wrote 2263 images to data/cell_train_00029-of-00032.tfrecord
+INFO:root:2020-07-28 09:10:18.101366 [thread 29]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:10:25.096665 [thread 28]: Wrote 2263 images to data/cell_train_00028-of-00032.tfrecord
+INFO:root:2020-07-28 09:10:25.096665 [thread 28]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:10:26.254243 [thread 4]: Wrote 2262 images to data/cell_train_00004-of-00032.tfrecord
+INFO:root:2020-07-28 09:10:26.254243 [thread 4]: Wrote 2262 images to 2262 shards.
+INFO:root:2020-07-28 09:10:27.541326 [thread 10]: Wrote 2263 images to data/cell_train_00010-of-00032.tfrecord
+INFO:root:2020-07-28 09:10:27.542316 [thread 10]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:10:31.669781 [thread 25]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:10:34.729735 [thread 23]: Wrote 2263 images to data/cell_train_00023-of-00032.tfrecord
+INFO:root:2020-07-28 09:10:34.729735 [thread 23]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:10:43.922605 [thread 8]: Wrote 2263 images to data/cell_train_00008-of-00032.tfrecord
+INFO:root:2020-07-28 09:10:43.922605 [thread 8]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:10:46.885394 [thread 2]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:10:49.556035 [thread 15]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:10:51.463287 [thread 21]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:11:06.658645 [thread 31]: Wrote 2263 images to data/cell_train_00031-of-00032.tfrecord
+INFO:root:2020-07-28 09:11:06.658645 [thread 31]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:11:10.818599 [thread 11]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:11:13.483462 [thread 19]: Wrote 2263 images to data/cell_train_00019-of-00032.tfrecord
+INFO:root:2020-07-28 09:11:13.483462 [thread 19]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:11:13.598477 [thread 30]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:11:16.622895 [thread 7]: Wrote 2263 images to data/cell_train_00007-of-00032.tfrecord
+INFO:root:2020-07-28 09:11:16.623895 [thread 7]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:11:26.550624 [thread 12]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:11:36.655317 [thread 25]: Wrote 2263 images to data/cell_train_00025-of-00032.tfrecord
+INFO:root:2020-07-28 09:11:36.656287 [thread 25]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:11:45.759415 [thread 2]: Wrote 2263 images to data/cell_train_00002-of-00032.tfrecord
+INFO:root:2020-07-28 09:11:45.759415 [thread 2]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:11:46.216840 [thread 24]: Processed 2000 of 2263 images in thread batch.
+INFO:root:2020-07-28 09:11:49.872861 [thread 15]: Wrote 2263 images to data/cell_train_00015-of-00032.tfrecord
+INFO:root:2020-07-28 09:11:49.872861 [thread 15]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:11:50.690022 [thread 21]: Wrote 2263 images to data/cell_train_00021-of-00032.tfrecord
+INFO:root:2020-07-28 09:11:50.690022 [thread 21]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:11:55.650260 [thread 18]: Processed 2000 of 2262 images in thread batch.
+INFO:root:2020-07-28 09:11:59.776766 [thread 30]: Wrote 2263 images to data/cell_train_00030-of-00032.tfrecord
+INFO:root:2020-07-28 09:11:59.776766 [thread 30]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:12:00.161590 [thread 11]: Wrote 2263 images to data/cell_train_00011-of-00032.tfrecord
+INFO:root:2020-07-28 09:12:00.161590 [thread 11]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:12:05.005655 [thread 12]: Wrote 2263 images to data/cell_train_00012-of-00032.tfrecord
+INFO:root:2020-07-28 09:12:05.005655 [thread 12]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:12:11.862223 [thread 24]: Wrote 2263 images to data/cell_train_00024-of-00032.tfrecord
+INFO:root:2020-07-28 09:12:11.863235 [thread 24]: Wrote 2263 images to 2263 shards.
+INFO:root:2020-07-28 09:12:15.905456 [thread 18]: Wrote 2262 images to data/cell_train_00018-of-00032.tfrecord
+INFO:root:2020-07-28 09:12:15.905456 [thread 18]: Wrote 2262 images to 2262 shards.
+INFO:root:2020-07-28 09:12:16.906361: Finished writing all 72409 images in data set.
